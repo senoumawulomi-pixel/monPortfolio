@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Découvrez les projets pratiques de SENOU Koffigan Mawulomi, développeur Web et Mobile junior à Lomé, Togo.">
+
+    <meta name="author" content="SENOU Koffigan Mawulomi">
+    <meta name="theme-color" content="#081426">
+
+    <title>Mes projets | SENOU Koffigan Mawulomi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body class="projects-page">
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="site-nav container" aria-label="Navigation principale">
+
+            <a class="site-brand" href="index.html">
+                SENOU<span>.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-label="Ouvrir le menu"
+                    aria-expanded="false"
+                    aria-controls="siteNavLinks">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <ul class="site-nav-links" id="siteNavLinks">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="projets.html" aria-current="page">Projets</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- En-tête -->
+        <section class="page-heading">
+            <div class="container">
+                <span class="eyebrow">Mon travail pratique</span>
+
+                <h1>Mes <span>projets</span></h1>
+
+                <p>
+                    Découvrez les projets réalisés ou explorés pendant
+                    mon parcours en développement Web et Mobile.
+                    Chaque réalisation représente une occasion
+                    d'apprendre, de pratiquer et de progresser.
+                </p>
+            </div>
+        </section>
+
+        <!-- Introduction -->
+        <section class="intro">
+            <div class="container">
+                <div class="intro-card">
+                    Je privilégie l’apprentissage par la pratique :
+                    <strong>concevoir, développer, tester et améliorer</strong>
+                    des solutions numériques adaptées à des besoins concrets.
+                    Les projets présentés ici sont des exercices,
+                    maquettes ou réalisations de formation selon leur état
+                    d’avancement.
+                </div>
+            </div>
+        </section>
+
+        <!-- Projets -->
+        <section class="projects-section">
+            <div class="container">
+
+                <div class="filter-bar" aria-label="Filtrer les projets">
+                    <button class="filter-btn active"
+                            type="button"
+                            data-filter="all"
+                            aria-pressed="true">
+                        Tous les projets
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="web"
+                            aria-pressed="false">
+                        Développement Web
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="commerce"
+                            aria-pressed="false">
+                        E-commerce
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="design"
+                            aria-pressed="false">
+                        Design et maquettes
+                    </button>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+
+                    <!-- Projet 1 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-visual">
+                            <i class="fas fa-truck-fast"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <div class="project-info">
+                            <span class="project-category">
+                                Transit et logistique
+                            </span>
+
+                            <h2>Transit Douane</h2>
+
+                            <p>
+                                Projet de site consacré au domaine
+                                du transit et de l’import-export.
+                                L’objectif est de faciliter la présentation
+                                des services et l’accès aux informations
+                                utiles aux clients.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                            </div>
+
+                            <div class="project-status">
+                                <i class="fas fa-graduation-cap"
+                                   aria-hidden="true"></i>
+                                Projet pratique de formation
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 2 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-visual">
+                            <i class="fas fa-seedling"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <div class="project-info">
+                            <span class="project-category">
+                                Agriculture
+                            </span>
+
+                            <h2>AGRI-TOGO</h2>
+
+                            <p>
+                                Projet de site Web pour une coopérative
+                                agricole, avec plusieurs pages destinées
+                                à présenter ses activités, ses produits,
+                                son organisation et ses coordonnées.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+
+                            <div class="project-status">
+                                <i class="fas fa-users"
+                                   aria-hidden="true"></i>
+                                Projet de formation en équipe
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 3 -->
+                    <article class="project-card" data-category="commerce">
+                        <div class="project-visual">
+                            <i class="fas fa-store"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <div class="project-info">
+                            <span class="project-category">
+                                Commerce en ligne
+                            </span>
+
+                            <h2>TechShop</h2>
+
+                            <p>
+                                Projet de boutique en ligne pour présenter
+                                des produits technologiques et réfléchir
+                                à une expérience d’achat simple et claire.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+
+                            <div class="project-status">
+                                <i class="fas fa-graduation-cap"
+                                   aria-hidden="true"></i>
+                                Projet de formation
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 4 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-visual">
+                            <i class="fas fa-address-book"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <div class="project-info">
+                            <span class="project-category">
+                                Gestion de données
+                            </span>
+
+                            <h2>Gestion de contacts</h2>
+
+                            <p>
+                                Exercice de gestion de données permettant
+                                de comprendre les opérations de création,
+                                consultation, modification et suppression
+                                d’enregistrements (CRUD).
+                            </p>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+
+                            <div class="project-status">
+                                <i class="fas fa-code"
+                                   aria-hidden="true"></i>
+                                Exercice pratique
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 5 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-visual">
+                            <i class="fas fa-book-open"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <div class="project-info">
+                            <span class="project-category">
+                                Application Web
+                            </span>
+
+                            <h2>Bibliothèque interactive</h2>
+
+                            <p>
+                                Concept d’application pour organiser
+                                un catalogue de livres et pratiquer
+                                la gestion des données à travers
+                                des opérations CRUD.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">CRUD</span>
+                            </div>
+
+                            <div class="project-status">
+                                <i class="fas fa-lightbulb"
+                                   aria-hidden="true"></i>
+                                Concept et apprentissage pratique
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 6 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-visual">
+                            <i class="fas fa-shirt"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <div class="project-info">
+                            <span class="project-category">
+                                Services locaux
+                            </span>
+
+                            <h2>Bidè — Lavage et pressing</h2>
+
+                            <p>
+                                Projet de site de présentation pour
+                                un service de lavage et de pressing.
+                                L’objectif est de mettre en valeur
+                                les services et de simplifier la prise
+                                de contact avec les clients.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+
+                            <div class="project-status">
+                                <i class="fas fa-graduation-cap"
+                                   aria-hidden="true"></i>
+                                Projet de formation
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 7 -->
+                    <article class="project-card" data-category="design">
+                        <div class="project-visual">
+                            <i class="fas fa-pen-ruler"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <div class="project-info">
+                            <span class="project-category">
+                                UI et conception
+                            </span>
+
+                            <h2>Maquette d’interface Web</h2>
+
+                            <p>
+                                Travail de réflexion sur la structure
+                                d’une page, l’organisation des contenus,
+                                les couleurs et l’expérience utilisateur.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">UI</span>
+                                <span class="tech-tag">Design Web</span>
+                            </div>
+
+                            <div class="project-status">
+                                <i class="fas fa-pencil"
+                                   aria-hidden="true"></i>
+                                Maquette ou exercice de conception
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 8 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-visual">
+                            <i class="fas fa-user-tie"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <div class="project-info">
+                            <span class="project-category">
+                                Portfolio
+                            </span>
+
+                            <h2>Mon portfolio professionnel</h2>
+
+                            <p>
+                                Site personnel destiné à présenter
+                                mon parcours, mes compétences, mes
+                                projets pratiques et mes coordonnées
+                                professionnelles.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+
+                            <div class="project-status">
+                                <i class="fas fa-code"
+                                   aria-hidden="true"></i>
+                                Projet personnel
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p id="filterMessage"
+                   role="status"
+                   aria-live="polite"
+                   style="text-align:center;color:#b5c3d7;margin-top:25px;">
+                    Tous les projets sont affichés.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Vidéo de présentation -->
+        <section class="video-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">Faisons connaissance</span>
+
+                    <h2>Ma vidéo de <span>présentation</span></h2>
+
+                    <p>
+                        Une présentation de mon parcours, de mes
+                        motivations et de mes objectifs professionnels.
+                    </p>
+                </div>
+
+                <div class="video-card">
+
+                    <div class="video-icon">
+                        <i class="fas fa-circle-play"
+                           aria-hidden="true"></i>
+                    </div>
+
+                    <h3>Mon profil professionnel</h3>
+
+                    <p>
+                        Découvrez ma motivation pour le développement
+                        Web et Mobile et les opportunités que je recherche.
+                    </p>
+
+                    <div class="video-wrapper">
+                        <video controls
+                               preload="metadata"
+                               playsinline>
+                            <source src="Videosenou.mp4" type="video/mp4">
+                            Votre navigateur ne prend pas en charge
+                            la lecture de cette vidéo.
+                        </video>
+                    </div>
+
+                    <p class="video-note">
+                        Si la vidéo ne s’affiche pas, vérifiez que le fichier
+                        <strong>Videosenou.mp4</strong> se trouve dans le
+                        même dossier que ce fichier HTML.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-cta">
+            <div class="container">
+
+                <div class="cta-box">
+
+                    <div>
+                        <h2>Vous avez un projet en tête ?</h2>
+
+                        <p>
+                            Je suis ouvert aux stages, aux opportunités
+                            junior et aux collaborations pour des projets Web.
+                        </p>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-envelope"
+                           aria-hidden="true"></i>
+                        Me contacter
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-socials">
+                <a href="https://github.com/senoumawulomi-pixel"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mawulomi-senou-1a04922b0/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+
+                <a href="mailto:senoumawulomi@gmail.com"
+                   aria-label="Envoyer un e-mail">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <p>
+                © <span id="currentYear">2026</span>
+                <strong>SENOU Koffigan Mawulomi</strong>
+                — Développeur Web et Mobile junior.
+            </p>
+
+            <p style="margin-top:5px;font-size:0.82rem;">
+                Lomé, Togo · Code, créativité et innovation.
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="portfolio.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio de SENOU Koffigan Mawulomi, développeur Web et Mobile junior à Lomé, Togo. Découvrez ses compétences, formations et projets numériques.">
+
+    <meta name="author" content="SENOU Koffigan Mawulomi">
+    <meta name="theme-color" content="#081426">
+
+    <title>SENOU Koffigan Mawulomi | Développeur Web et Mobile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body class="home-page">
+
+    <!-- Navigation principale -->
+    <header class="site-header">
+        <nav class="site-nav container" aria-label="Navigation principale">
+
+            <a class="site-brand" href="index.html" aria-label="Accueil SENOU">
+                SENOU<span>.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-label="Ouvrir le menu"
+                    aria-expanded="false"
+                    aria-controls="siteNavLinks">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <ul class="site-nav-links" id="siteNavLinks">
+                <li><a href="index.html" aria-current="page">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Section d'accueil -->
+        <section class="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="hero-bg-glow-left"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <div class="badge">
+                        <i class="fas fa-code" aria-hidden="true"></i>
+                        Développement Web et Mobile
+                    </div>
+
+                    <h1 class="hero-name" aria-label="SENOU Koffigan Mawulomi">
+                        <span class="name-word">SENOU</span>
+                        <span class="name-word">Koffigan</span>
+                        <span class="name-word">Mawulomi</span>
+                    </h1>
+
+                    <p class="hero-role">Développeur Web et Mobile Junior</p>
+
+                    <p class="hero-desc">
+                        Basé à Lomé, je conçois et j’apprends à créer des
+                        solutions numériques utiles, accessibles et pensées
+                        pour leurs utilisateurs.
+                    </p>
+
+                    <div class="btn-group">
+
+                        <a href="projets.html" class="btn btn-primary">
+                            <i class="fas fa-laptop-code"
+                               aria-hidden="true"></i>
+                            Découvrir mes projets
+                        </a>
+
+                        <a href="contact.html" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"
+                               aria-hidden="true"></i>
+                            Me contacter
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-photo">
+                    <div class="photo-frame">
+                        <img src="image/senou.png.jpeg"
+                             alt="Portrait de SENOU Koffigan Mawulomi"
+                             width="680"
+                             height="850"
+                             fetchpriority="high">
+                    </div>
+                </div>
+
+            </div>
+            <a class="scroll-cue" href="#presentation" aria-label="Défiler vers la présentation">
+                <span>Défiler</span>
+                <i class="fas fa-arrow-down" aria-hidden="true"></i>
+            </a>
+        </section>
+
+        <!-- Présentation des rubriques -->
+        <section class="intro-section" id="presentation">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">Bienvenue</span>
+
+                    <h2>
+                        Découvrez mon <span>univers professionnel</span>
+                    </h2>
+
+                    <p>
+                        Explorez mon parcours, mes projets de formation,
+                        mes compétences et les possibilités de
+                        collaboration.
+                    </p>
+                </div>
+
+                <div class="content-grid">
+
+                    <article class="content-card">
+                        <h3>
+                            <i class="fas fa-user"
+                               style="color: #e31b23;"
+                               aria-hidden="true"></i>
+                            Mon parcours
+                        </h3>
+
+                        <p>
+                            Découvrez mes formations, mes expériences
+                            professionnelles, mes qualités et mes
+                            objectifs dans le domaine du numérique.
+                        </p>
+
+                        <a class="page-link" href="apropos.html">
+                            En savoir plus
+                            <i class="fas fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </article>
+
+                    <article class="content-card">
+                        <h3>
+                            <i class="fas fa-laptop-code"
+                               style="color: #0a66c2;"
+                               aria-hidden="true"></i>
+                            Mes réalisations
+                        </h3>
+
+                        <p>
+                            Découvrez mes projets pratiques de
+                            développement Web, les interfaces
+                            réalisées et les solutions que j’explore
+                            pendant mon apprentissage.
+                        </p>
+
+                        <a class="page-link" href="projets.html">
+                            Voir mes projets
+                            <i class="fas fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </article>
+
+                    <article class="content-card">
+                        <h3>
+                            <i class="fas fa-globe-africa"
+                               style="color: #e31b23;"
+                               aria-hidden="true"></i>
+                            Ouvert aux opportunités
+                        </h3>
+
+                        <p>
+                            Basé à Lomé, je suis ouvert aux stages,
+                            aux postes juniors et aux collaborations
+                            sur des projets numériques au Togo et
+                            à l’international.
+                        </p>
+
+                        <a class="page-link" href="contact.html">
+                            Prenons contact
+                            <i class="fas fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Appel à la collaboration -->
+        <section class="availability">
+            <div class="container">
+
+                <div class="availability-box">
+
+                    <div>
+                        <h2>Un projet ou une opportunité ?</h2>
+
+                        <p>
+                            Je serais heureux d’échanger avec vous
+                            sur un stage, une collaboration ou la
+                            réalisation d’un site Web.
+                        </p>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-envelope"
+                           aria-hidden="true"></i>
+                        Parlons de votre projet
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-socials">
+
+                <a href="https://github.com/senoumawulomi-pixel"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Mon profil GitHub">
+                    <i class="fab fa-github"
+                       aria-hidden="true"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mawulomi-senou-1a04922b0/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Mon profil LinkedIn">
+                    <i class="fab fa-linkedin"
+                       aria-hidden="true"></i>
+                </a>
+
+                <a href="mailto:senoumawulomi@gmail.com"
+                   aria-label="M’envoyer un e-mail">
+                    <i class="fas fa-envelope"
+                       aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+            <p>
+                © <span id="currentYear">2026</span>
+                <strong>SENOU Koffigan Mawulomi</strong>
+                — Développeur Web et Mobile junior.
+            </p>
+
+            <p style="margin-top: 5px; font-size: 0.82rem;">
+                Lomé, Togo · Code, créativité et innovation.
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="portfolio.js" defer></script>
+
+</body>
+</html>
